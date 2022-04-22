@@ -12,6 +12,45 @@ p {
  }
 
 
+/* ------------------- Estilo Sección Historia ------------------------ */
+
+ .borde-exterior {
+    background-color: #fdfffa;
+    border: #0a0a0a 3px solid;
+    box-shadow: #0a0a0a 20px 20px;
+    width: 65%;
+    min-width: 30em;
+    margin: 0 auto;
+}
+
+.borde-exterior>h2 {
+  margin: 1em;
+}
+
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.col {
+    margin: 1em;
+}
+.historia-fila {
+  display: flex;
+  justify-content: center;
+}
+
+.col>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ------------------- Estilo Sección Idea ------------------------ */
+
+/* ------------------- Estilo Sección Proyectos ------------------------ */
+
 /* ------------------- Estilo Sección Miembros ------------------------ */
 
  .nosotras {
