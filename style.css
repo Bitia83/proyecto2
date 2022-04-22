@@ -33,7 +33,7 @@ p {
 .flex-grid .col {
   flex: 1;
 }
-.col {
+.col1, .col2, .col3, .col4 {
     margin: 1em;
 }
 .historia-fila {
