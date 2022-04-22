@@ -80,7 +80,12 @@ div.img1 img {
   width: 100%;
   height: auto;
 }
-
+.responsive {
+  background-color: #fdfffa;
+  border: #0a0a0a 3px solid;
+  box-shadow: #0a0a0a 20px 20px;
+  padding: 20px;
+}
 div.desc {
   padding: 15px;
   text-align: center;
@@ -101,12 +106,7 @@ font-weight: bold;
 }
 
 
-.responsive {
-  background-color: #fdfffa;
-  border: #0a0a0a 3px solid;
-  box-shadow: #0a0a0a 20px 20px;
-  padding: 20px;
-}
+
 
 /* ------------------- Estilo Sección Miembros ------------------------ */
 
