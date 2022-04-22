@@ -78,9 +78,7 @@ h1{
   background-repeat: none;
   transition: flex 0.8s ease;
   
-  &:hover{
-    flex: 7;
-  }
+ 
  .item-1 {
    background-image: url("Documents/Factoria-F51/femtech/proyecto2/imagenes/codecademy.png");
  }
