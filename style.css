@@ -79,9 +79,11 @@ h1{
   transition: flex 0.8s ease;
   
  
- .item-1 {
-   background-image: url("Documents/Factoria-F51/femtech/proyecto2/imagenes/codecademy.png");
- }
+  .item-1 {
+   background-image: url("Documents/Factoria-F51/femtech/proyecto2/imagenes/codecademy.png");}
+   .item-2 {
+     background-image: url("Documents/Factoria-F51/femtech/proyecto2/imagenes/bitdegree.png");
+   }
 
 /* ------------------- Estilo Sección Proyectos ------------------------ */
 
