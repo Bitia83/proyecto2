@@ -147,5 +147,6 @@ font-weight: bold;
 
 .miembros-personal>h2:hover {
     background-color: #0a0a0a;
-    color: #fdfffa;
+    color: #ff5683;
+    font-style:italic;
 }
