@@ -38,6 +38,11 @@ p {
 
 /* ------------------- Estilo Sección Historia ------------------------ */
 
+.Historia {
+    background-image:url(imagenes/Fondo-Historia.png);
+    background-repeat: no-repeat;
+}
+
 .historia-sup {
     display: flex; 
     justify-content: space-between;
@@ -149,6 +154,12 @@ font-weight: bold;
 
 
 /* ------------------- Estilo Sección Miembros ------------------------ */
+
+/* Probar al arreglar la transición entre secciones 
+.miembros {
+    background-image:url(imagenes/Fondo-Miembros.png);
+    background-repeat: no-repeat;
+} */
 
  .nosotras {
     background-color: #fdfffa;
