@@ -4,20 +4,55 @@
     padding: 0;
 }
 
+body {
+    background: #fdfffa;
+}
+
+/* ---- Fuentes ---- */
+
 p {
     font-family: 'Roboto Mono', monospace;
  }
- 
- h1, h2 {
+ h1, h2, h3 {
    font-family: 'Space Mono', monospace;
  }
-
- body {
-     background: #fdfffa;
+ h1 {
+     font-size: 60px;
+ }
+ h2 {
+     font-size: 45px;
+ }
+ h3 {
+     font-size: 32px;
  }
 
+/* ---- Animaciones Xs ---- */
+
+ .X:not(:active) {
+    opacity: 1;
+   }
+   
+   .X:active {
+     opacity: 0;
+   }
 
 /* ------------------- Estilo Sección Historia ------------------------ */
+
+.historia-sup {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  } 
+
+  .historia-sup>h2 {
+      margin-left: 5%;
+  }
+
+  .historia-sup>img {
+margin-right: 2%;
+  }
 
 .borde-exterior {
     background-color: #fdfffa;
@@ -145,7 +180,7 @@ font-weight: bold;
     object-fit: contain;
 }
 
-.miembros-personal>h2:hover {
+.miembros-personal>h3:hover {
     background-color: #0a0a0a;
     color: #ff5683;
     font-style:italic;
