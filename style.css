@@ -95,7 +95,7 @@ p {
   
     /*----nuestra misión------*/
   
-    .mission {
+    #mission {
       width: 60%;
       height: 0%;
       display: flex;
