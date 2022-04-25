@@ -75,35 +75,35 @@ p {
 
  .hero-header { 
    /*hero-image*/
-  background-image: url( "https://i.postimg.cc/rsk9LZZx/Hero-Image.png");
+  background-image: url("imagenes/HeroImage.png");
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
-   height: 200px;
+   height: 600px;
    background-position: center;
    display: flex;
    align-items: center;
    justify-content: center;
  }
  .hero-text {
-   /*hero-text*/
+   /*-----hero-text-------------*/
    display: flex;
    align-items: center;
    height: 100px;
    width: 200px;
  }
   
-    /*nuestra misión*/
+    /*----nuestra misión------*/
   
     .mission {
-      width: 100%;
+      width: 60%;
       height: 0%;
       display: flex;
       flex-direction: column;
       align-items: center;
       background-color:#fdfffa;
       border: #0a0a0a 3px solid;
-      margin: 10% 40%;
+      margin: 10% 20%;
       box-shadow: #0a0a0a 20px 20px;
       border-shadow: 2px;  
       gap:0.2em;
@@ -233,6 +233,8 @@ div.img1:hover {
 
   -webkit-transform: scale(1.4, 1.4);
   transform: scale(1.4, 1.4);
+  background-color: #fdfffa;
+  background-clip: content-box;
   /*width: 300px;
   height: 300px;*/
  }
@@ -251,8 +253,8 @@ div.img1 {
 }
 #proyecto .responsive {
   background-color: #fdfffa;
-  border: e1dbdb 3px solid;
-  box-shadow: #e1dbdb 20px 20px;
+  border: cdcdcd 3px solid;
+  box-shadow: #cdcdcd 20px 20px;
   background-position: center center;
   background-size: cover;
   padding: 20px;
@@ -264,9 +266,9 @@ div.img1 {
   div.desc {
   padding: 15px;
   text-align: center;
-font-size: 1.5em;
-font-weight: bold;
-font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
 }
 
 .clearfix:after {
