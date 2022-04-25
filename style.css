@@ -215,7 +215,7 @@ div.img1 {
   height: 100%;
  
 }
-img {
+.imagen{
    width: 30vh;
    height: 20vh;
 
@@ -238,6 +238,7 @@ img {
   text-align: center;
 font-size: 1.5em;
 font-weight: bold;
+font-family: 'Space Mono', monospace;
 }
 
 .clearfix:after {
