@@ -36,16 +36,19 @@ p {
      opacity: 0;
    }
    /*------Estilo Menu navegador---------------------*/
-   nav >ul>li{
-    display: flex;
-    justify-content: flex-end;
-    justify-content: right;
+   nav>ul>li{
+    
     margin-right: 1em;
     justify-content: space-between;
     display: inline-block;
     list-style-type: none;
     font-size: 13px;
-     min-width: 
+    
+   }
+   nav {
+    display: flex;
+    justify-content: space-around;
+      
    }
  
  a {
@@ -180,7 +183,7 @@ div.img1 {
   height: 100%;
  
 }
-img {
+.imagen{
    width: 30vh;
    height: 20vh;
 
@@ -203,6 +206,7 @@ img {
   text-align: center;
 font-size: 1.5em;
 font-weight: bold;
+font-family: 'Space Mono', monospace;
 }
 
 .clearfix:after {
