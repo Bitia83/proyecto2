@@ -100,6 +100,10 @@ p {
    flex-direction: column;
    justify-content: flex-end;
  }
+ .msn-text {
+  justify-content: center;
+  align-items: center;
+  }
 /* ------------------- Estilo Sección Historia ------------------------ */
 
 #Historia {
