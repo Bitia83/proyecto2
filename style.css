@@ -91,12 +91,6 @@ p {
     /*nuestra misión*/
    width: 100%;
    height: 100%;
-<<<<<<< HEAD
-=======
->>>display: flex;
-=======
-  
->>>>>>> 1c98971b386dca9b2429fc4ff128e8170fe0a706
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
