@@ -43,15 +43,16 @@ p {
     justify-content: space-between;
     display: inline-block;
     list-style-type: none;
-    font-size: 13px;
-    
+    font-size: 25px;
    }
    nav {
     display: flex;
     justify-content: space-around;
     font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-weight: bold;
     border: 3px #0a0a0a solid;
-    padding: 2%;
+    padding: 2% 0% 2% 0%;
    }
  
  a {
@@ -120,6 +121,8 @@ p {
 #Historia {
     background-image:url(imagenes/Fondo-Historia.png);
     background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .historia-sup {
@@ -180,7 +183,8 @@ margin-right: 2%;
 
 #idea .container {
   text-align: center;
-  padding: 200px 12px;
+  padding: 350px 12px;
+  
 }
 #idea p {
   font-weight: bold;
@@ -210,6 +214,7 @@ margin-right: 2%;
 }
 #proyecto .container {
   padding: 150px 0px;
+  padding-top: 50px;
 }
 
 div.img1 {
@@ -285,6 +290,11 @@ font-family: 'Space Mono', monospace;
     background-repeat: no-repeat;
 } */
 
+
+#miembros {
+  padding: 150px 15px;
+  padding-bottom: 5px;
+}
  .nosotras {
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
@@ -296,11 +306,6 @@ font-family: 'Space Mono', monospace;
     margin-left: 100px;
     
     }
-  .nosotras  {
-    display: flex;
-justify-content: center;
-align-items: center;
-  }
   .miembros-personal {
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
