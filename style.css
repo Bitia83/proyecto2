@@ -71,6 +71,7 @@ p {
  a:hover {
    box-shadow: inset 150px 0 0 0 #0a0a0a;
    color: white;
+   font-style: italic;
  }
 
  .hero-header { 
@@ -84,6 +85,7 @@ p {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin-top: 5%;
  }
  .hero-text {
    /*hero-text*/
@@ -103,7 +105,7 @@ p {
       align-items: center;
       background-color:#fdfffa;
       border: #0a0a0a 3px solid;
-      margin: 10% 40%;
+      margin: 10% 20%;
       box-shadow: #0a0a0a 20px 20px;
       border-shadow: 2px;  
       gap:0.2em;
@@ -112,6 +114,7 @@ p {
     /*---------Misión-text--------*/
     .msn-text>h2 {
     text-align: center;
+padding-bottom: 3%;
     
     }
     .msn-text {
@@ -310,14 +313,13 @@ div.img1 {
     text-align: center;
     margin-bottom: 50px;
     margin-left: 100px;
-    
     }
   .miembros-personal {
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
     box-shadow: #0a0a0a 20px 20px;
     padding: 20px;
-    padding-bottom:100px;
+    padding-bottom:110px;
   }
   
   .miembros-box {
