@@ -99,11 +99,40 @@ margin-right: 2%;
 
 /* ------------------- Estilo Sección Idea ------------------------ */
 
+#idea .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+#idea p {
+  font-weight: bold;
+}
+@media (min-width:720px) {
 
+  #idea {
+  background-image: url("imagenes/ideas.png");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: calc(100vw - 500px) 120px;
+}
+#idea .container {
+  text-align:initial;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 80px;
+}
+ }
 
 
    
 /* ------------------- Estilo Sección Proyectos ------------------------ */
+#proyecto {
+  text-align: center;
+}
+#proyecto .container {
+  padding: 150px 0px;
+}
+
 div.img1 {
   -webkit-transition: all 0.5s ease;
    -moz-transition: all 0.5s ease;
@@ -118,30 +147,37 @@ div.img1:hover {
   transform: scale(1.4, 1.4);
   /*width: 300px;
   height: 300px;*/
-  -webkit-filter: grayscale(100%);
-}
+ }
 
-div.img1 img {
+ 
+div.img1 {
   width: 100%;
-  height: auto;
+  height: 100%;
+ 
 }
-.responsive {
+img {
+   width: 30vh;
+   height: 20vh;
+
+
+}
+#proyecto .responsive {
   background-color: #fdfffa;
-  border: #0a0a0a 3px solid;
-  box-shadow: #0a0a0a 20px 20px;
+  border: e1dbdb 3px solid;
+  box-shadow: #e1dbdb 20px 20px;
+  background-position: center center;
+  background-size: cover;
   padding: 20px;
-}
-div.desc {
+  margin: 20px;
+  width: 300px;
+  height: 220px;
+ }
+
+  div.desc {
   padding: 15px;
   text-align: center;
-font-size: 100%;
+font-size: 1.5em;
 font-weight: bold;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
 }
 
 .clearfix:after {
@@ -149,8 +185,14 @@ font-weight: bold;
   display: table;
   clear: both;
 }
-
-
+@media (min-width:720px) {
+  #proyecto .caja {
+    display: flex;
+}
+#proyecto h2{
+    font-size: 3em;
+}
+}
 
 
 /* ------------------- Estilo Sección Miembros ------------------------ */
