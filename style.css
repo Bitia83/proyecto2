@@ -64,8 +64,8 @@ p {
    text-decoration: none;
    box-shadow: inset 0 0 0 0 #bdfC6C;
    color:#0a0a0a;
-   margin: 0 -.25rem;
-   padding: 0 .25rem;
+   margin: 0 -.35rem;
+   padding: 0 .35rem;
    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
  }
  a:hover {
@@ -107,8 +107,8 @@ p {
       box-shadow: #0a0a0a 20px 20px;
       border-shadow: 2px;  
       gap:0.2em;
-        
       }
+
     /*---------Misión-text--------*/
     .msn-text>h2 {
     text-align: center;
@@ -187,7 +187,7 @@ margin-right: 2%;
 
 #idea .container {
   text-align: center;
-  padding: 350px 12px;
+  padding: 280px 100px;
   
 }
 #idea p {
