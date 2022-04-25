@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+
+}
 
 body {
     background: #fdfffa;
@@ -91,7 +95,7 @@ p {
   
     /*----nuestra misión------*/
   
-    .mission {
+    #mission {
       width: 60%;
       height: 0%;
       display: flex;
