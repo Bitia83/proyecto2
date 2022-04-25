@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #fdfffa;
+    background: #fdfffa; 
 }
 
 /* ---- Fuentes ---- */
@@ -82,14 +82,14 @@ p {
    justify-content: center;
  }
  .hero-text {
-   /*-----hero-text-------------*/
+   /*hero-text*/
    display: flex;
    align-items: center;
    height: 100px;
    width: 200px;
  }
   
-    /*----nuestra misión------*/
+    /*nuestra misión*/
   
     .mission {
       width: 100%;
@@ -99,7 +99,7 @@ p {
       align-items: center;
       background-color:#fdfffa;
       border: #0a0a0a 3px solid;
-      margin: 10% 20%;
+      margin: 10% 40%;
       box-shadow: #0a0a0a 20px 20px;
       border-shadow: 2px;  
       gap:0.2em;
