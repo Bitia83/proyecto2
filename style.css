@@ -249,6 +249,8 @@ font-family: 'Space Mono', monospace;
 @media (min-width:720px) {
   #proyecto .caja {
     display: flex;
+    justify-content: center;
+
 }
 #proyecto h2{
     font-size: 3em;
