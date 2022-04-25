@@ -169,10 +169,10 @@ margin-right: 2%;
 @media (min-width:720px) {
 
   #idea {
-  background-image: url("imagenes/ideas.png");
+  background-image: url("imagenes/Fondo-Ideas.png");
   background-repeat: no-repeat;
-  background-size: 500px 400px;
-  background-position: calc(100vw - 500px) 120px;
+  background-size: 100%;
+  background-position: center;
 }
 #idea .container {
   text-align:initial;
