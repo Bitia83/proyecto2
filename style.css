@@ -68,31 +68,36 @@ p {
  }
 
  .hero-header { /*image*/
-  background-image: url( "https://i.ibb.co/NtqRvP2/Hero-Image.png");
+  background-image: url( "https://i.postimg.cc/rsk9LZZx/Hero-Image.png");
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
    height: 200px;
- }
- .hero-text { /*text*/
-   align-items: center;
+   background-position: center;
    display: flex;
-   height: 100px;
+   align-items: center;
    justify-content: center;
+ }
+ .hero-text {
+   /*text*/
+   display: flex;
+   align-items: center;
+   height: 100px;
    width: 200px;
+ }
   
   
  }
    .mission {
    width: 100%;
    height: 100%;
-   display: flex;
+=======
+>>>display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
-   border: 0;  
+   border: 2px;  
    gap:4em;
-  
    flex-direction: column;
    justify-content: flex-end;
  }
@@ -169,10 +174,10 @@ margin-right: 2%;
 @media (min-width:720px) {
 
   #idea {
-  background-image: url("imagenes/ideas.png");
+  background-image: url("imagenes/Fondo-Ideas.png");
   background-repeat: no-repeat;
-  background-size: 500px 400px;
-  background-position: calc(100vw - 500px) 120px;
+  background-size: 100%;
+  background-position: center;
 }
 #idea .container {
   text-align:initial;
@@ -249,6 +254,8 @@ font-family: 'Space Mono', monospace;
 @media (min-width:720px) {
   #proyecto .caja {
     display: flex;
+    justify-content: center;
+
 }
 #proyecto h2{
     font-size: 3em;
@@ -268,8 +275,11 @@ font-family: 'Space Mono', monospace;
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
     box-shadow: #0a0a0a 20px 20px;
-    width: 30%;
+    width: 32%;
+    min-width: 320px;
     text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
   }
   
   .miembros-personal {
@@ -278,7 +288,6 @@ font-family: 'Space Mono', monospace;
     box-shadow: #0a0a0a 20px 20px;
     padding: 20px;
     padding-bottom:100px;
-
   }
   
   .miembros-box {
