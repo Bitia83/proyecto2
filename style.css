@@ -12,6 +12,7 @@ body {
 
 p {
     font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
  }
  h1, h2, h3 {
    font-family: 'Space Mono', monospace;
@@ -84,7 +85,7 @@ p {
   
  }
    .mission {
-   width 100%
+   width 100%git pul
    height 100%
    display: flex;
    flex-wrap: wrap;
@@ -169,10 +170,10 @@ margin-right: 2%;
 @media (min-width:720px) {
 
   #idea {
-  background-image: url("imagenes/ideas.png");
+  background-image: url("imagenes/Fondo-Ideas.png");
   background-repeat: no-repeat;
-  background-size: 500px 400px;
-  background-position: calc(100vw - 500px) 120px;
+  background-size: 100%;
+  background-position: center;
 }
 #idea .container {
   text-align:initial;
@@ -270,8 +271,11 @@ font-family: 'Space Mono', monospace;
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
     box-shadow: #0a0a0a 20px 20px;
-    width: 30%;
+    width: 32%;
+    min-width: 320px;
     text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
   }
   
   .miembros-personal {
@@ -280,7 +284,6 @@ font-family: 'Space Mono', monospace;
     box-shadow: #0a0a0a 20px 20px;
     padding: 20px;
     padding-bottom:100px;
-
   }
   
   .miembros-box {
