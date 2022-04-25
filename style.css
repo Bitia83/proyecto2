@@ -96,13 +96,13 @@ p {
 =======
 >>>display: flex;
 =======
-   display: flex;
+  
 >>>>>>> 1c98971b386dca9b2429fc4ff128e8170fe0a706
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
    border: 2px;  
-   gap:4em;
+   gap: 4em;
    flex-direction: column;
    justify-content: flex-end;
  }
