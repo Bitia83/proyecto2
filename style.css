@@ -71,11 +71,11 @@ p {
 
  .hero-header { 
    /*hero-image*/
-  background-image: url( "https://i.postimg.cc/rsk9LZZx/Hero-Image.png");
+  background-image: url("imagenes/HeroImage.png");
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
-   height: 200px;
+   height: 600px;
    background-position: center;
    display: flex;
    align-items: center;
