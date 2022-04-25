@@ -301,3 +301,20 @@ font-family: 'Space Mono', monospace;
     color: #ff5683;
     font-style:italic;
 }
+
+/*-----------seccion footer------*/
+
+footer {
+  background-color: rgb (230,230,230);
+}
+footer p {
+  margin: 0;
+  color:rgb(244, 28, 132);
+  padding: 14px;
+  }
+  footer .container {
+    height:130px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
