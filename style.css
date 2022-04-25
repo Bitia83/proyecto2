@@ -65,7 +65,7 @@ p {
    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
  }
  a:hover {
-   box-shadow: inset 100px 0 0 0 #0a0a0a;
+   box-shadow: inset 150px 0 0 0 #0a0a0a;
    color: white;
  }
 
