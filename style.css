@@ -92,7 +92,7 @@ p {
     /*----nuestra misión------*/
   
     .mission {
-      width: 100%;
+      width: 60%;
       height: 0%;
       display: flex;
       flex-direction: column;
