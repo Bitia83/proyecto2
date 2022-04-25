@@ -232,8 +232,11 @@ font-weight: bold;
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
     box-shadow: #0a0a0a 20px 20px;
-    width: 30%;
+    width: 32%;
+    min-width: 320px;
     text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
   }
   
   .miembros-personal {
@@ -242,7 +245,6 @@ font-weight: bold;
     box-shadow: #0a0a0a 20px 20px;
     padding: 20px;
     padding-bottom:100px;
-
   }
   
   .miembros-box {
