@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #fdfffa;
+    background: #fdfffa; 
 }
 
 /* ---- Fuentes ---- */
@@ -64,13 +64,14 @@ p {
    text-decoration: none;
    box-shadow: inset 0 0 0 0 #bdfC6C;
    color:#0a0a0a;
-   margin: 0 -.25rem;
-   padding: 0 .25rem;
+   margin: 0 -.35rem;
+   padding: 0 .35rem;
    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
  }
  a:hover {
    box-shadow: inset 150px 0 0 0 #0a0a0a;
    color: white;
+   font-style: italic;
  }
 
  .hero-header { 
@@ -84,16 +85,17 @@ p {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin-top: 5%;
  }
  .hero-text {
-   /*-----hero-text-------------*/
+   /*hero-text*/
    display: flex;
    align-items: center;
    height: 100px;
    width: 200px;
  }
   
-    /*----nuestra misión------*/
+    /*nuestra misión*/
   
     #mission {
       width: 60%;
@@ -107,11 +109,12 @@ p {
       box-shadow: #0a0a0a 20px 20px;
       border-shadow: 2px;  
       gap:0.2em;
-        
       }
+
     /*---------Misión-text--------*/
     .msn-text>h2 {
     text-align: center;
+padding-bottom: 3%;
     
     }
     .msn-text {
@@ -187,7 +190,7 @@ margin-right: 2%;
 
 #idea .container {
   text-align: center;
-  padding: 350px 12px;
+  padding: 280px 100px;
   
 }
 #idea p {
@@ -310,14 +313,13 @@ div.img1 {
     text-align: center;
     margin-bottom: 50px;
     margin-left: 100px;
-    
     }
   .miembros-personal {
     background-color: #fdfffa;
     border: #0a0a0a 3px solid;
     box-shadow: #0a0a0a 20px 20px;
     padding: 20px;
-    padding-bottom:100px;
+    padding-bottom:110px;
   }
   
   .miembros-box {
