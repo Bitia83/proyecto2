@@ -43,15 +43,16 @@ p {
     justify-content: space-between;
     display: inline-block;
     list-style-type: none;
-    font-size: 13px;
-    
+    font-size: 25px;
    }
    nav {
     display: flex;
     justify-content: space-around;
     font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-weight: bold;
     border: 3px #0a0a0a solid;
-    padding: 2%;
+    padding: 2% 0% 2% 0%;
    }
  
  a {
@@ -99,11 +100,17 @@ p {
    flex-direction: column;
    justify-content: flex-end;
  }
+ .msn-text {
+  justify-content: center;
+  align-items: center;
+  }
 /* ------------------- Estilo Sección Historia ------------------------ */
 
 #Historia {
     background-image:url(imagenes/Fondo-Historia.png);
     background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .historia-sup {
